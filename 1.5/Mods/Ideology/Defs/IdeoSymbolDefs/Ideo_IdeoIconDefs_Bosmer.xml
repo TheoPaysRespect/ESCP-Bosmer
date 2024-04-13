@@ -5,7 +5,6 @@
 		<iconPath>UI/Ideoligions/ESCP_BosmerA</iconPath>
 		<memes>
 			<li>ESCP_Structure_OriginYffre</li>
-			<li>NaturePrimacy</li>
 			<li>TreeConnection</li>
 		</memes>
 	</IdeoIconDef>
@@ -14,7 +13,6 @@
 		<iconPath>UI/Ideoligions/ESCP_BosmerB</iconPath>
 		<memes>
 			<li>ESCP_Structure_OriginYffre</li>
-			<li>NaturePrimacy</li>
 			<li>TreeConnection</li>
 		</memes>
 	</IdeoIconDef>
@@ -23,7 +21,6 @@
 		<iconPath>UI/Ideoligions/ESCP_BosmerC</iconPath>
 		<memes>
 			<li>ESCP_Structure_OriginYffre</li>
-			<li>NaturePrimacy</li>
 			<li>TreeConnection</li>
 		</memes>
 	</IdeoIconDef>
