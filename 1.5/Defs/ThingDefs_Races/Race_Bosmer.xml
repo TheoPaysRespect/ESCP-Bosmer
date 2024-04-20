@@ -185,19 +185,29 @@
 						<li>
 							<path>Things/Pawn/Humanlike/ESCP_Bosmer/Horn/Horn</path>
 							<colorChannel>horn</colorChannel>
-							<bodyPart>Head</bodyPart>
-							<drawnInBed>true</drawnInBed>
 							<inFrontOfBody>true</inFrontOfBody>
 							<alignWithHead>true</alignWithHead>
-							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-							<drawnDesiccated>true</drawnDesiccated>
-							<hiddenUnderApparelFor>
-								<li>FullHead</li>
-								<li>UpperHead</li>
-							</hiddenUnderApparelFor>
-							<hiddenUnderApparelTag>
-								<li>ESCP_CoverBosmerHorns</li>
-							</hiddenUnderApparelTag>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>		
+							<conditions>
+								<BodyPart>
+									<bodyPart>Head</bodyPart>
+								</BodyPart>
+								<RotStage>Fresh,Rotting</RotStage>
+								<Apparel>
+									<hiddenUnderApparelFor>
+										<li>FullHead</li>
+										<li>UpperHead</li>
+									</hiddenUnderApparelFor>
+									<hiddenUnderApparelTag>
+										<li>ESCP_CoverBosmerHorns</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+								<Posture>
+									<drawnStanding>true</drawnStanding>
+									<drawnLaying>true</drawnLaying>
+									<drawnInBed>true</drawnInBed>
+								</Posture>
+							</conditions>
 							<offsets>
 								<north>
 									<layerOffset>-0.28</layerOffset>
