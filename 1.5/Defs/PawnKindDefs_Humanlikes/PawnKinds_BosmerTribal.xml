@@ -341,7 +341,7 @@
 				<pawnKinds>
 					<li>Bear_Grizzly</li>
 					<li>Warg</li>
-					<li MayRequire="ESCP.ESCP.Trolls">ESCP_TrollForest</li>
+					<li MayRequire="ESCP.Trolls">ESCP_TrollForest</li>
 				</pawnKinds>
 				<bond>true</bond>
 			</li>
